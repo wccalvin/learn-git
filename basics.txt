@@ -1,0 +1,20 @@
+==========
+GIT BASICS
+==========
+
+=========================================
+References: http://git-scm.com/book/en/v2
+=========================================
+
+------------------------------------> Notes Start here <----------------------------------
+
+1. Speed
+2. Simple Design
+3. Non-linear development
+4. Distributed
+
+Points to be Noted:
+1. Git thinks of its data as a stream of snapshots.
+2. Almost every operation is local. This means, commit is possible without a network connection but upload is not.
+3. Git uniquely identifies every change with an SHA1 checksum.
+	Ref: http://en.wikipedia.org/wiki/SHA-1
