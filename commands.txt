@@ -1,0 +1,16 @@
+=================
+COMMAND REFERENCE
+=================
+
+Notes:
+#> - depicts commands
+
+--------------------
+First time Git Setup
+--------------------
+#> git config --global user.name "wccalvin"
+#> git config --global user.email clayton.calvin@gmail.com
+
+If a default text editor should be setup when Git needs you to type in a message:
+#> git config --global core.editor emacs [default: vim]
+
