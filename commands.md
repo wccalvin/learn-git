@@ -33,6 +33,7 @@ If a default text editor should be setup when Git needs you to type in a message
 6. Manage set of tracked repositories
 
 	`git remote show origin`
+
 	`git remote add origin https://github.com/user.name/repo.git`
 
 7. Update remote refs along with associated objects
