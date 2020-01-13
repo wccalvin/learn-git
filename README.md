@@ -71,3 +71,11 @@ git init [docs](https://git-scm.com/docs/git-init)
 `git clone <URL of repo> <New repo name>`
 
 git clone [docs](https://git-scm.com/docs/git-clone)
+
+### Status of the repo
+
+The git status is our key to the mind of Git. It will tell us what Git is thinking and the state of our repository as Git sees it
+
+`git status`
+
+git status [docs](https://git-scm.com/docs/git-status)
