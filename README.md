@@ -104,3 +104,15 @@ To answer the questions like, what files were changed? How was it changed?
 - displays the file(s) that have been modified
 - displays the number of lines that have been added/removed
 - displays a summary line with the total number of modified files and lines that have been added/removed
+
+The `git log` command has a flag that can be used to display the actual changes made to a file.
+
+`git log -p` or `git log --patch`
+
+- displays the files that have been modified
+- displays the location of the lines that have been added/removed
+- displays the actual changes that have been made
+
+`git log -p --stat` will display the stats info above the patch info
+
+`git log -p -w` will show the patch information, but will not highlight lines where only whitespace changes have occurred.
