@@ -6,36 +6,36 @@
 
 `git config --global user.email clayton.calvin@gmail.com`
 
-If a default text editor should be setup when Git needs you to type in a message
+- If a default text editor should be setup when Git needs you to type in a message
 
-`git config --global core.editor emacs` [default: vim]
+  `git config --global core.editor emacs` [default: vim]
 
 ## To pull an existing repository to update modified changes
 
-1. Create an empty git repository or reinitialize an existing one
+- Create an empty git repository or reinitialize an existing one
 
-	`git init`
+  `git init`
 
-2. Fetch from and integrate with another repository
+- Fetch from and integrate with another repository
 
-	`git pull https://github.com/user.name/repo.git`
+  `git pull https://github.com/user.name/repo.git`
 
-3. Make required changes to the files.
+- Make required changes to the files.
 
-4. Add file contents to the index.
+- Add file contents to the index.
 
-	`git add <file name>`
+  `git add <file name>`
 
-5. Record changes to the repository
+- Record changes to the repository
 
-	`git commit -m "message"`
+  `git commit -m "message"`
 
-6. Manage set of tracked repositories
+- Manage set of tracked repositories
 
-	`git remote show origin`
+  `git remote show origin`
 
-	`git remote add origin https://github.com/user.name/repo.git`
+  `git remote add origin https://github.com/user.name/repo.git`
 
-7. Update remote refs along with associated objects
+- Update remote refs along with associated objects
 
-	`git push origin master`
+  `git push origin master`
