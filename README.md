@@ -169,3 +169,21 @@ The git commit command takes files from the Staging Index and saves them in the 
 After setting up the favorite editor in the config, run `git commit`
 
 `git commit -m` to skip opening the editor for commit message.
+
+Writing better commit messages
+
+- stick to 60 chars or less
+- be consistent
+
+Do
+
+- keep the message short (less than 60-ish characters)
+- explain what the commit does (not how or why!)
+
+Do not
+
+- explain why the changes are made
+- explain how the changes are made (that's what git log -p is for!)
+- do not use the word "and" (if that is the case, there are too many changes to commit)
+
+Here's an example of [commit message standard](https://udacity.github.io/git-styleguide/)
