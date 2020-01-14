@@ -2,9 +2,11 @@
 
 ## First time Git Setup
 
-`git config --global user.name "wccalvin"`
+- Setup user name and email in the ~/.gitconfig
 
-`git config --global user.email clayton.calvin@gmail.com`
+  `git config --global user.name "wccalvin"`
+
+  `git config --global user.email clayton.calvin@gmail.com`
 
 - If a default text editor should be setup when Git needs you to type in a message
 
