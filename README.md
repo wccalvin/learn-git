@@ -42,8 +42,6 @@ A branch is when a new line of development is created that diverges from the mai
 
 ## Create a repo from scratch
 
-### Initialize the repository
-
 `git init`
 
 Running the git init command sets up all of the necessary files and directories that Git will use to keep track of everything. All of these files are stored in a directory called [.git](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain)
@@ -64,7 +62,7 @@ refs/ - contains pointers to commits (basically the "branches" and "tags")
 
 git init [docs](https://git-scm.com/docs/git-init)
 
-### Clone an existing repo
+## Clone an existing repo
 
 `git clone <URL of repo>`
 
@@ -72,7 +70,7 @@ git init [docs](https://git-scm.com/docs/git-init)
 
 git clone [docs](https://git-scm.com/docs/git-clone)
 
-### Status of the repo
+## Status of the repo
 
 The git status is our key to the mind of Git. It will tell us what Git is thinking and the state of our repository as Git sees it
 
