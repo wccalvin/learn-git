@@ -142,3 +142,22 @@ The output of the git show command is exactly the same as the git log -p command
 - the date
 - the commit message
 - the patch information
+
+## Commit to a repo
+
+### Git Add
+
+The `git add` command is used to move files from the Working Directory to the Staging Index.
+
+`git add <file1> <file2> … <fileN>`
+
+- takes a space-separated list of file names
+- the period . can be used in place of a list of files to tell Git to add the current directory (and all nested files)
+
+`git rm --cached <file>` will not destroy any of your work; it just removes it from the Staging Index.
+`git rm --cached -r .` will recursively removes everything from Staging Index.
+
+### Some useful references
+
+- First time [git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+- Associating [text editors](https://help.github.com/en/github/using-git/associating-text-editors-with-git) with git
