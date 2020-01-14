@@ -77,3 +77,24 @@ The git status is our key to the mind of Git. It will tell us what Git is thinki
 `git status`
 
 git status [docs](https://git-scm.com/docs/git-status)
+
+## Displaying repo commits
+
+`git log`
+
+By default, this command displays:
+
+- the SHA
+- the author
+- the date
+- and the message
+
+Truncate and display commits in oneline:
+
+`git log --oneline`
+
+- lists one commit per line
+- shows the first 7 characters of the commit's SHA
+- shows the commit's message
+
+## Viewing modified files
