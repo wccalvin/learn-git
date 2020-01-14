@@ -161,3 +161,11 @@ The `git add` command is used to move files from the Working Directory to the St
 
 - First time [git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - Associating [text editors](https://help.github.com/en/github/using-git/associating-text-editors-with-git) with git
+
+### Git Commit
+
+The git commit command takes files from the Staging Index and saves them in the repository.
+
+After setting up the favorite editor in the config, run `git commit`
+
+`git commit -m` to skip opening the editor for commit message.
