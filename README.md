@@ -116,3 +116,29 @@ The `git log` command has a flag that can be used to display the actual changes 
 `git log -p --stat` will display the stats info above the patch info
 
 `git log -p -w` will show the patch information, but will not highlight lines where only whitespace changes have occurred.
+
+Avoid too much scrolling by just viewing a specific commit. There is two ways to accomplish that,
+
+`git log -p <SHA>`
+
+By supplying a SHA, the git log -p command will start at that commit. Just so you know, it will also show all of the commits that were made prior to the supplied SHA.
+
+The other command that can be used to display commit is `git show`
+
+`git show`
+
+The above command will display the most recent commit
+
+`git show <SHA>`
+
+The above command displays the commit associated with the SHA.
+
+`git show --stat 8aa6668`
+
+The output of the git show command is exactly the same as the git log -p command. So by default, git show displays:
+
+- the commit
+- the author
+- the date
+- the commit message
+- the patch information
