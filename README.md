@@ -97,4 +97,10 @@ Truncate and display commits in oneline:
 - shows the first 7 characters of the commit's SHA
 - shows the commit's message
 
-## Viewing modified files
+To answer the questions like, what files were changed? How was it changed?
+
+`git log --stat`
+
+- displays the file(s) that have been modified
+- displays the number of lines that have been added/removed
+- displays a summary line with the total number of modified files and lines that have been added/removed
