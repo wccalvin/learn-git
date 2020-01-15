@@ -261,3 +261,81 @@ Adding a tag to a past commit
 
 `git tag` from [book](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 `git tag` (docs)[https://git-scm.com/docs/git-tag]
+
+### Git Branch
+
+Branches in Git are flexible and lets you do powerful things.
+
+![branch](img/branch.png)
+
+HEAD - points to the current or active branch
+
+We can fix the problem by creating a branch.
+
+![branch](img/branch2.png)
+
+Create a branch:
+
+`git branch <branchName>`
+
+`git branch <branchName> <SHA>`
+
+List all branches:
+
+`git branch`
+
+Switch between branches:
+
+`git checkout <branchName>`
+
+Delete a branch:
+
+`git branch -d <branchName>`
+
+Note:
+git checkout will remove all files and directories from the Working Directory that Git is tracking
+(be assured that nothing is lost - they are stored in the repository)
+
+Here's and interactive website to learn [git branching](https://learngitbranching.js.org/)
+`git branch` [book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
+Useful git log command for viewing all the branches (commits)
+
+`git log --oneline --decorate --graph --all`
+
+### Git Merge
+
+- Combining branches together is called merging.
+- It's important to know which branch you're on when you're about to merge branches together.
+- Making a merge makes a commit.
+
+When a merge happens, Git will:
+
+- look at the branches that it's going to merge
+- look back along the branch's history to find a single commit that both branches have in their commit history
+- combine the lines of code that were changed on the separate branches together
+- makes a commit to record the merge
+
+Note:
+When we merge, we're merging some other branch into the current (checked-out) branch. We're not merging two branches into a new branch. We're not merging the current branch into the other branch.
+
+Types of merge:
+
+- Fast-forward merge (simplest of all merges)
+- Regular merge
+
+Fast-forward merge illustrated:
+
+- the branch being merged in must be ahead of the checked out branch.
+- Fast-forward merge will just move the currently checked out branch forward until it points to the same commit that the other branch
+
+![merge](img/fast-forward-merge.png)
+
+![merge](img/fast-forward-merge2.png)
+
+Regular merge:
+
+- two divergent branches are combined
+- a merge commit is created
+
+Git branching [book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
