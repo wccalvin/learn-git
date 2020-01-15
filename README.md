@@ -60,7 +60,7 @@ objects/ - contains all the commits we make
 
 refs/ - contains pointers to commits (basically the "branches" and "tags")
 
-git init [docs](https://git-scm.com/docs/git-init)
+`git init` [docs](https://git-scm.com/docs/git-init)
 
 ## Clone an existing repo
 
@@ -68,7 +68,7 @@ git init [docs](https://git-scm.com/docs/git-init)
 
 `git clone <URL of repo> <New repo name>`
 
-git clone [docs](https://git-scm.com/docs/git-clone)
+`git clone` [docs](https://git-scm.com/docs/git-clone)
 
 ## Status of the repo
 
@@ -76,7 +76,7 @@ The git status is our key to the mind of Git. It will tell us what Git is thinki
 
 `git status`
 
-git status [docs](https://git-scm.com/docs/git-status)
+`git status` [docs](https://git-scm.com/docs/git-status)
 
 ## Displaying repo commits
 
@@ -187,3 +187,17 @@ Do not
 - do not use the word "and" (if that is the case, there are too many changes to commit)
 
 Here's an example of [commit message standard](https://udacity.github.io/git-styleguide/)
+
+### Git Diff
+
+The git diff command can be used to see changes that have been made but haven't been committed, yet.
+
+`git diff`
+
+This command displays:
+
+- the files that have been modified
+- the location of the lines that have been added/removed
+- the actual changes that have been made
+
+`git diff` [docs](https://git-scm.com/docs/git-diff)
