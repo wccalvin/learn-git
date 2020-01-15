@@ -352,3 +352,17 @@ The editor has the following merge conflict indicators:
 ![merge conflict](img/merge-conflict.png)
 
 Merge conflict indicator [docs](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented)
+
+## Undoing
+
+### Modifying the last commit
+
+`git commit --amend` will let you provide a new commit message.
+
+We can also add forgotten files to commit using `git commit --amend`
+
+To include files to the commit:
+
+- edit the file
+- stage the file
+- run `git commit --amend`
