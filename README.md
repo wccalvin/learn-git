@@ -201,3 +201,28 @@ This command displays:
 - the actual changes that have been made
 
 `git diff` [docs](https://git-scm.com/docs/git-diff)
+
+### Git Ignore
+
+Create a `.gitignore` file where the .git resides
+
+Using globbing we can leverage `.gitignore` to exclude files with pattern.
+
+```text
+ blank line - matches no files, can be used for readability
+
+ # - marks line as a comment
+
+ * - matches 0 or more characters
+
+ ? - matches 1 character
+
+ [abc] - matches a, b, or c
+
+ - matches nested directories - a/**/z matches
+    a/z
+    a/b/z
+    a/b/c/z
+```
+
+`.gitignore` [docs](https://git-scm.com/docs/gitignore#_pattern_format)
