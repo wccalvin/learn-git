@@ -226,3 +226,38 @@ Using globbing we can leverage `.gitignore` to exclude files with pattern.
 ```
 
 `.gitignore` [docs](https://git-scm.com/docs/gitignore#_pattern_format)
+
+## Tagging, Branching, Merging
+
+### Git Tag
+
+Tags let you point out particular commit to stand out from others.
+
+`git tag v1.0` - create a lightweight tag
+
+`git tag -a v1.0` - creates an annotated tag
+
+Annotated tags are recommended because they include a lot of extra information such as:
+
+- the person who made the tag
+- the date the tag was made
+- a message for the tag
+
+To verify the tag added to the repository, just type `git tag`
+
+Use `git log` or `git log --decorate` for git 2.13 and older. The output looks like:
+
+`commit 67b71812c337f10c1e25d5469967e1f904e0a757 (HEAD -> master, tag: 1.0)`
+
+HEAD -> master is the information about branch
+
+A Git tag can be deleted with the -d flag
+
+`git tag -d v1.0`
+
+Adding a tag to a past commit
+
+`git tag -a v1.0 SHA`
+
+`git tag` from [book](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+`git tag` (docs)[https://git-scm.com/docs/git-tag]
