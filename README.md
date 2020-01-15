@@ -339,3 +339,16 @@ Regular merge:
 - a merge commit is created
 
 Git branching [book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
+### Merge Conflict
+
+What causes it?
+
+- Git tracks lines in files
+- Merge conflicts happen when the exact same lines are change in seperate branches.
+
+The editor has the following merge conflict indicators:
+
+![merge conflict](img/merge-conflict.png)
+
+Merge conflict indicator [docs](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented)
