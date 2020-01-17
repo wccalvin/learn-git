@@ -2,6 +2,8 @@
 
 Git is a distributed version-control system for tracking changes in source code during software development [...](https://en.wikipedia.org/wiki/Git)
 
+Keeps track of various version of the code
+
 ## Git vs GitHub vs GitLab
 
 Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories.
