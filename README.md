@@ -371,7 +371,7 @@ To include files to the commit:
 
 ### Git Revert
 
-Git takes the changes that were made in commit and does the exact opposite of them. For example,  if Git reverts commit A, then Git will make a new commit where that changes are deleted.
+Git takes the changes that were made in commit and does the exact opposite of them. For example,  if Git reverts commit A, then Git will make a new commit where that changes made in commit A are deleted.
 
 `git revert <SHA>`
 
